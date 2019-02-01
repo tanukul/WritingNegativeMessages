@@ -1,0 +1,189 @@
+﻿<div class="landing-page">
+    <div class="container">
+        <h1 class="pageheading pageTitle">Decision Point: Closing the Message</h1>
+        <div class="section1">
+            <div class="pagedesc"> 
+                <p>
+                    
+                    ​Now that you've covered the three issues with respect to the Radio-DRM prototype, it's time to close your message to Kenisha. As you did with the opening to your message, you have multiple options available to you.
+                    <br />
+                    <br />
+                    Consider the closing approaches below and determine which conclusion would be​ the most appropriate, given the situation and the manner in which you have addressed it.
+                    <br />
+                    <br />
+                    <p><i>Select an option from the choices below and click <b>Submit.</b></i></p>
+                </p>
+               
+               
+            </div>
+
+        </div>
+        <!-- <div class="pageinstruction">
+            <i>
+                Select an option from the choices below and click
+                <strong>Submit.</strong>
+            </i>
+            <span style="color:#790226;float:right;width: 22%;" id="spanTeamPercentResponse"></span>
+        </div> -->
+        <div class="question-band">
+            <div class="option-group">
+                <table>
+                    <tr class="option1" optionID="1" opt_id="option1" onclick='QuestionOptionChanged(this);' iscorrect='0' qScore="1">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_18" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​In conclusion, I'm sorry that things didn't work out with the Radio-DRM prototype. I trust our decision is satisfactory.
+                                    </span>
+
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option1"></span>
+                        </td>
+                    </tr>
+                    <tr class="option2" optionID="2" opt_id="option2" onclick='QuestionOptionChanged(this);' iscorrect='1' qScore="5">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_26" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​In conclusion, I see this as a temporary setback for you and your team, not a roadblock. Given the remarkable progress you've made with respect to the Radio-DRM prototype, I have every reason to believe that you'll be able to readily address the issues and bring this prototype to full production.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option2"></span>
+                        </td>
+                    </tr>
+                    <tr class="option3" opt_id="option3" optionID="3" onclick='QuestionOptionChanged(this);' iscorrect='0' qScore="3">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_8" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​I regret that the Radio-DRM prototype has been rejected at this time, but you're to be commended for what you've accomplished so far. If there is any way I can be of help, please let me know.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option3"></span>
+                        </td>
+                    </tr>
+                    <tr class="option4" opt_id="option4" optionid="4" onclick='QuestionOptionChanged(this);' iscorrect='0' qscore="0">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_40" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​In conclusion, this is not a good situation. The company has lost valuable time due to your failure to produce an acceptable prototype, and spending more time fixing it will put us even further behind. You and your team have let us down. I hope you learn something from this experience; we certainly did.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option4"></span>
+                        </td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+        <div class="submit-btn" align="center">
+            <input type="button" class="btn" id="btnSubmit" value="Submit" onclick="SubmitQuestionResponse()">
+        </div>
+        <!--
+        <div id='divStdFdbk'></div>
+        <div id='divTeamFdbk'></div> -->
+        <div class="submitFeedbackPopup">
+            <div id="fdk" optionID="1" opt_id="option1">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Open-Sans-Font-16px ">
+                        You chose to close your message with, "In conclusion, I'm sorry that things didn't work out...".
+                        <span style="color:#77b401;">
+                            <strong> This was not the best choice. </strong>
+                        </span>
+                        By stating that you "trust our decision is satisfactory," you are implying that the matter may be open for discussion or negotiation. It is important to close your message respectfully but firmly and avoid an uncertain conclusion.
+                     </span>
+                </p>
+            </div>
+            <div id="fdk" optionID="2" opt_id="option2">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Open-Sans-Font-16px ">
+                        You chose to close your message with, "In conclusion, I see this as a temporary setback...". 
+                        <span style="color:#1d7527;">
+                            <strong> This was the best choice. </strong>
+                        </span>
+                        You have stressed the positive, expressed optimism, and focused on the future.
+                    </span>
+                </p>
+            </div>
+            <div id="fdk" optionID="3" opt_id="option3">
+                <p id="userselText"></p>
+                <p>
+                   
+                        <span class="Open-Sans-Font-16px "> 
+                            You chose to close your message with, "I regret that the Radio-DRM prototype has been rejected...". 
+                            <span style="color:#77b401;">
+                                <strong> This was an OK choice. </strong>
+                            </span> 
+                            You've done a good job of closing on a positive note by commending Kenisha and her team, but it would have been better to steer clear of the cliché that she should let you know if you can be of help.
+                        </span>
+                    
+                </p>
+            </div>
+            <div id="fdk" optionid="4" opt_id="option4">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Default">
+                        <span class="Open-Sans-Font-16px ">
+                            You chose to close your message with, "In conclusion, this is not a good situation...".
+                            <span style="color:#FF0000;">
+                                <strong> This was an incorrect choice. </strong>
+                            </span>
+                            Remember that the close is the last thing Kenisha will have to remember from your message, and telling her that she and her team have let you down does not treat her with respect. Another option would have been a better choice.
+                        </span>
+                    </span>
+                </p>
+            </div>           
+        </div>
+    </div>
+</div>

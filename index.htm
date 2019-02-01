@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Writing Negative Messages</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/font.css" rel="stylesheet" />
+    <link href="styles/layout.css" rel="stylesheet" />
+    <link href="styles/module.css" rel="stylesheet" />
+    <link href="styles/device.css" rel="stylesheet" />
+    <link href="styles/circle.css" rel="stylesheet" />
+    <link href="styles/options.css" rel="stylesheet" />
+    <!--<link href="styles/skeleton.css" id="firstPageCss" rel="stylesheet" />-->
+    <link href="scripts/external/menu/menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="scripts/external/jquery-2.1.4.min.js"></script>
+    <script src="scripts/external/jquery-ui.js"></script>
+    <script src="scripts/cooker.js"></script>
+    <script src="scripts/external/menu/menu.js"></script>
+    <script src="scripts/caching.js"></script>
+    <script src="scripts/module.js"></script>
+    <script src="scripts/navigator.js"></script>
+    <script src="scripts/objective.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/events.js"></script>
+    <script src="scripts/question.js"></script>
+</head>
+
+<body>
+    <div id="wrapper" class="mxwidth">
+        <header role="banner">
+            <center>
+                <div id="header-content" class="mxwidth">
+                    <div id="header-title">
+                        <img class="logo" src="assets/images/logo.png"  alt=""/>
+                        <h1>Writing Negative Messages</h1>
+                            <!-- <div class="teamProfile">
+                                <div class="teamProfileIcon">
+                                <img class="team teameam" id="teamm" src="assets/images/team1.png" onclick='ShowTeamMenu();' />
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- <div class="TeamMenu teameam" id="TeamMenu">
+                        <div style="margin:10px;" class="teameam">
+                            <div class="grayborder teameam">
+                                <span id='spanTeamName' class="teameam"></span>
+                                <img class="editIconTeamName teameam" id="editIconTeamName" src="assets/images/ico_edit-v1.png" onclick='ShowEditTeamPopup()' style="cursor:pointer;">
+                                <input type='text' style='width:140px;display:none;padding-left:5px;' id='txtEditTeamName' class="teameam" placeholder='Please enter team name' value='' />
+								<input type="button" class="teameam" id="btnEditTeamName" value="Go" style="display: none;" onclick="UpdateTeamNameFromList()">
+                                <a id="btnEditTeamName" class="teameam" onclick="UpdateTeamName()" tabindex="2" style="cursor: pointer; display: none;">Go</a>
+                            </div>                            
+                            <div id="divMembers" class="teameam">
+                                <div class="divMembersDiv teameam">
+
+                                </div>
+                            </div>
+                            <div style="text-align:right;" class="teameam">
+                                <a id='linkChangeTeam' class="teameam" onclick="_Navigator.LoadPage('l1p2');$('#header-progress').hide();$('#footer-navigation').hide()">Change Team</a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div id="header-progress">
+                        <ul role="menubar" aria-label="functions" id="appmenu" class="wrapper">
+                            <li role="menu" id="appmenulibar" aria-haspopup="false" tabindex="1">
+                                <img src="scripts/external/menu/ico_menu-v1.png" id="appmenulibar" alt="">
+                                <div class="dummyMenuDiv" style="display:none;"></div>
+                                <ul id="appmenulist" role="menu"></ul>
+                            </li>
+                        </ul>
+
+                        <div class="progress">
+                            <div class="background">
+                                <div class="progressForeground ProgressForeGroundColor"></div>
+                            </div>
+                            <div id="scorediv" class="scoreDiv">
+                                <div id="progressInnrDiv">Progress 0%</div>
+                            </div>
+                        </div>
+
+                        <div class="pageaction">
+                            <nav>
+                                <ul>
+                                    <li class="icon-play disabled">
+                                        <img src="assets/images/ico_play-18px-v1.png" alt="" />
+                                    </li>
+                                    <li class="transcript-popup" aria-expanded="false">
+                                        <img src="assets/images/ico_transcript-18px-v1.png" alt="" />
+                                    </li>
+                                    <li class="info-icon">
+                                        <img src="assets/images/info.png" alt="" />
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div id="infoDetails">
+
+                    </div>
+                    <div id="transcriptDetails">
+
+                    </div>
+                    <!--<div id="Messanger" style="padding:7px;float: right;background-color: #e9e9e9;border:1px solid #c7c7c7;border-radius:10px;display:none;" aria-hidden="true"><span></span></div>-->
+                </div>
+            </center>
+        </header>
+        <main role="main">
+            <div class="top-slider innerWrapper headmargin"></div>
+            <div class="tasSkeleton"></div>
+            <!-- <div id='divExpireMsg' style='display:none;'>
+		        Please make a selection in the decision scenario as the time limit will expire in 2 mins.
+		        <span id='spanExpireMsg' > Click
+		        <a id='linkExpireMsg' onclick="_Navigator.LoadPage('l1p5');$('#header-progress').hide();$('#footer-navigation').hide();" style='cursor:pointer;color: #0481b2;font-size: 13px;'>here</a> to go to the decision scenario.
+				</span>
+						    </div> -->
+
+            <div class="main-content innerWrapper"></div>
+            <!-- <div id="teamWMsg" class="instrCustomMsg">
+                <p>You will be able to proceed after all members of your team have made their selections.</p>
+            </div>
+            <div id="teamFMsg" class="instrCustomMsg">
+                <p><strong>The team chose the same option as you did.</strong></p>
+            </div>
+            <div id="teamRMsg" class="instrCustomMsg">
+                <p class="thirdP">As there was no majority, please try this decision scenario again.
+                    <input type="button" class="btn" id="btnRetry" value="Retry" onclick="RetryQuestion()">
+            </div> -->
+            <div id="lastspanNext" class="instrCustomMsg" style="display:none;">
+                <p><em>Click <strong>Next</strong> to continue. </em>
+                </p>
+            </div>
+        </main>
+        <footer>
+            <center>
+                <nav role="navigation">
+                    <div id="footer-navigation">
+                        <div class="previous">
+                            <a id="linkprevious" href="#">
+                                <img class="prevImg" src="assets/images/back-button.png" aria-hidden="true">
+                                <span>Previous</span>
+                            </a>
+                        </div>
+                        <div class="next">
+                            <a id="linknext" href="#">
+                                <span>Next</span>
+                                <img class="nextImg" src="assets/images/next-button.png" aria-hidden="true">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </center>
+        </footer>
+    </div>
+
+</body>
+
+</html>

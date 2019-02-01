@@ -1,0 +1,187 @@
+<div class="landing-page">
+    <div class="container">
+        <h1 class="pageheading pageTitle">Decision Point: Choosing Your Direct Opening</h1>
+        <div class="section1">
+            <div class="pagedesc"> 
+                <p>
+                    
+                    You've decided to break the bad news to Kenisha using a direct approach. Of the following options, which opening statement would be the most appropriate for this situation?
+                    <br />
+                    <br />
+                    <p><i>Select an option from the choices below and click <b>Submit.</b></i></p>
+                </p>
+               
+               
+            </div>
+
+        </div>
+        <!-- <div class="pageinstruction">
+            <i>
+                Select an option from the choices below and click
+                <strong>Submit.</strong>
+            </i>
+            <span style="color:#790226;float:right;width: 22%;" id="spanTeamPercentResponse"></span>
+        </div> -->
+        <div class="question-band">
+            <div class="option-group">
+                <table>
+                    <tr class="option1" optionID="1" opt_id="option1" onclick='QuestionOptionChanged(this);' iscorrect='0' qScore="3">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_8" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​The Radio-DRM prototype you and your team developed is unacceptable. We carefully evaluated the prototype from a number of different perspectives, and our conclusion is that it is not ready for production.​
+                                    </span>
+
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option1"></span>
+                        </td>
+                    </tr>
+                    <tr class="option2" optionID="2" opt_id="option2" onclick='QuestionOptionChanged(this);' iscorrect='1' qScore="5">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_32" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​We have carefully evaluated the Radio-DRM prototype submitted by your team. Unfortunately, as it currently is configured, it is not ready for production. You and your team will need to continue ​to work ​on it and develop another prototype that addresses the issues we've identified.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option2"></span>
+                        </td>
+                    </tr>
+                    <tr class="option3" opt_id="option3" optionID="3" onclick='QuestionOptionChanged(this);' iscorrect='0' qScore="1">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_33" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​The Radio-DRM prototype you designed is simply not good enough to go into production. When we started this project, we laid out a clear list of requirements, and your prototype does not meet those requirements.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option3"></span>
+                        </td>
+                    </tr>
+                    <tr class="option4" opt_id="option4" optionid="4" onclick='QuestionOptionChanged(this);' iscorrect='0' qscore="1">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_35" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​We had high hopes that the Radio-DRM would really deliver a blow to our competitors​, but it looks like our company is going to take the hit instead. Your prototype was almost good enough, but in business "almost good enough" is just another way of saying "not good enough."
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option4"></span>
+                        </td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+        <div class="submit-btn" align="center">
+            <input type="button" class="btn" id="btnSubmit" value="Submit" onclick="SubmitQuestionResponse()">
+        </div>
+        <!--
+        <div id='divStdFdbk'></div>
+        <div id='divTeamFdbk'></div> -->
+        <div class="submitFeedbackPopup">
+            <div id="fdk" optionID="1" opt_id="option1">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Open-Sans-Font-16px ">
+                        ​You chose to deliver the rejection with the statement, "The Radio-DRM prototype you and your team developed...".
+                        <span style="color:#77b401;">
+                            <strong> This was an OK choice. </strong>
+                        </span>
+                        This statement delivered the news and showed concern at the same time. However, it does not make it clear that you want the team to continue working on the device to fix the perceived flaws in the prototype.
+                     </span>
+                </p>
+            </div>
+            <div id="fdk" optionID="2" opt_id="option2">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Open-Sans-Font-16px ">
+                        You chose delivering the rejection with the statement, "We have carefully evaluated the Radio-DRM prototype...".
+                        <span style="color:#1d7527;">
+                            <strong> This was the best choice. </strong>
+                        </span>
+                        The message is concerned and sympathetic, yet firm and direct. It also clearly identifies the expectation that the team will continue working on the device to fix the perceived flaws in the prototype.
+                    </span>
+                </p>
+            </div>
+            <div id="fdk" optionID="3" opt_id="option3">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Default">
+                        <span class="Open-Sans-Font-16px ">
+                            You chose delivering the rejection with the statement, "The Radio-DRM prototype you designed is simply not good enough...".
+                            <span style="color:#77b401;">
+                                <strong> This was not the best choice. </strong>
+                            </span>
+                            On the plus side, your message is very direct and delivers the bad news. However, it is also blunt and somewhat harsh. Another option would have been a better choice.
+                        </span>
+                    </span>
+                </p>
+            </div>
+            <div id="fdk" optionid="4" opt_id="option4">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Default">
+                        <span class="Open-Sans-Font-16px ">
+                            You chose delivering the rejection with the statement, "We had high hopes...". 
+                            <span style="color:#77b401;">
+                                <strong> This was not the best choice. </strong>
+                            </span>
+                           The message is harsh, and bringing up the negative implications for the company will not help Kenisha and her team at this point. More likely, it will simply scare and upset her. You also did not tell her that you expect the team to continue working on the prototype and fix the flaws.
+                        </span>
+                    </span>
+                </p>
+            </div>
+       
+        </div>
+    </div>
+</div>

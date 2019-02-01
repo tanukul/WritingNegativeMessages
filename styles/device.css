@@ -1,0 +1,168 @@
+﻿
+@media screen and (max-width : 1024px) {
+ 
+}
+@media  screen and (max-width:940px){
+  #wrapper{
+      border:0px;
+  }
+}
+@media  screen and (max-width: 900px) {  
+
+  .main-content,#infoDetails{
+    width: 97%;
+    margin:0 9%;
+   }
+}
+@media  screen and (max-width: 893px) {  
+  .main-content,#infoDetails {
+    margin:0 7%;
+   }
+   #appmenu {
+    left: 80px!important;
+  }
+}
+@media  screen and (max-width: 880px) {  
+  .main-content,#infoDetails {
+    margin:0 5%;
+   }
+   #appmenu {
+    left: 60px!important;
+  }
+}
+@media  screen and (max-width: 840px) {  
+  .main-content,#infoDetails {
+    margin:0 4%;
+   }
+   #appmenu {
+    left: 40px!important;
+  }
+}
+@media  screen and (max-width : 768px) {
+    #dropArea {
+        width: 80%;
+        float: left;
+    }
+
+    #dragArea {
+        width: 80%;
+        float: left;
+        margin: 3.5% 0px 0px 1.5%;
+    }
+  .studentContainerText{
+    width: 100%!important;
+   }
+   .main-content,#infoDetails {
+    margin:0 3%;
+   }
+   .studentTeamImage {
+    width: 100%;
+    text-align: center;
+   }
+   .pagedesc-1 {
+    width: 100%;
+    float: left;
+   }
+   .optimizeimage {
+    width: 100%;
+    text-align: center;
+  }
+  .pagedesc p {
+     float: unset; 
+  }
+  .scenario .scenarioimageesr {
+    width: 100%!important;
+    float: left;
+}
+.scenario .scenariodetailsesr {
+  width: 100%!important;
+  float: right;
+}
+  .table-popup {
+    display: block;
+  }
+  .pageaction ul {
+    margin-right: 10px;
+  } 
+  #appmenu {
+    left: 20px!important;
+  }
+  .Stakeholders{
+    width:300px!important;
+  }
+  .option-group .cl1,.option-group .cl2{
+    width:100%;
+  }
+  .option-group .cl2 img{
+    margin-left:0px;
+  }
+  .option-group .cl1 img,.option-group .cl2 img{
+    margin: 15px auto!important;
+    display: block;
+  }
+
+}
+@media  screen and (max-width : 650px) {
+ 
+}
+@media  screen and (max-width : 580px) {
+  
+
+}
+@media  screen and (max-width : 500px) {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media  screen and (max-width : 440px) {
+
+
+}
+@media  screen and (max-width : 420px) {
+   .studentContainerText{
+    width: 100%!important;
+   }
+   .studentTeamImage {
+    width: 100%;
+    text-align: center;
+   }
+   .pageaction ul {
+    margin-right: 10px;
+   } 
+   #appmenu {
+    left: 5px!important;
+  }
+  #header-progress .progress {
+    margin-right: 50px;
+  }
+  #header-title .logo {
+    margin: 12px 2%;
+    height: 27px;
+    display:none;
+  }
+  #header-title h1 {
+    font-size:20px;
+    padding-top:10px;
+  }
+}
+@media  screen and (max-width : 320px) {
+  #header-title .logo {
+    display:none;
+  }
+  #progressInnrDiv {
+    margin-left:0px;
+  }
+  .studentTeamImage img {
+    float: left;
+  }
+  .pagedesc img {
+   float: left; 
+    padding-left: 0px;
+ }
+ #AboutPageBottomBtn,#CloseButton{
+  float: unset!important;
+  margin: 10px auto;
+  display: flex;
+ }
+
+}

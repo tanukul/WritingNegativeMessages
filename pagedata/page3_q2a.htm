@@ -1,0 +1,187 @@
+<div class="landing-page">
+    <div class="container">
+        <h1 class="pageheading pageTitle">Decision Point: Choosing an Apology Statement</h1>
+        <div class="section1">
+            <div class="pagedesc"> 
+                <p>
+                    
+                    ​You've decided to begin breaking the bad news to Kenisha by issuing an apology. Of the following options, which type of apology would be the most appropriate for this situation?
+                    <br />
+                    <br />
+                   <p><i>Select an option from the choices below and click <b>Submit.</b></i></p>
+                </p>
+               
+               
+            </div>
+
+        </div>
+        <!-- <div class="pageinstruction">
+            <i>
+                Select an option from the choices below and click
+                <strong>Submit.</strong>
+            </i>
+            <span style="color:#790226;float:right;width: 22%;" id="spanTeamPercentResponse"></span>
+        </div> -->
+        <div class="question-band">
+            <div class="option-group">
+                <table>
+                    <tr class="option1" optionID="1" opt_id="option1" onclick='QuestionOptionChanged(this);' iscorrect='1' qScore="5">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_26" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​I want to express my regrets that the Radio-DRM project won't be going into production at this time. All of us at Structural Sound still have great hopes for this project and feel confident that it can still succeed.
+                                    </span>
+
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option1"></span>
+                        </td>
+                    </tr>
+                    <tr class="option2" optionID="2" opt_id="option2" onclick='QuestionOptionChanged(this);' iscorrect='0' qScore="0">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_32" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​First of all, you and your team are awesome! I can't begin to tell you how great all of you are, and how bummed I am to have to tell you that the Radio-DRM project won't be going into production. I feel awful about this whole thing, and I hope you'll forgive me.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option2"></span>
+                        </td>
+                    </tr>
+                    <tr class="option3" opt_id="option3" optionID="3" onclick='QuestionOptionChanged(this);' iscorrect='0' qScore="1">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_18" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        I am deeply anguished to have to deliver the devastating news that the Radio-DRM project won't be going into production. From the bottom of my heart, I want to apologize for the situation as it stands.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option3"></span>
+                        </td>
+                    </tr>
+                    <tr class="option4" opt_id="option4" optionid="4" onclick='QuestionOptionChanged(this);' iscorrect='0' qscore="1">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_28" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                        ​I am genuinely sorry to tell you that the Radio-DRM project won't be going into production at this time. I feel terrible and take full responsibility for not being more involved with this project from the beginning so that the outcome could have been different.
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option4"></span>
+                        </td>
+                    </tr>
+                          
+                </table>
+            </div>
+        </div>
+        <div class="submit-btn" align="center">
+            <input type="button" class="btn" id="btnSubmit" value="Submit" onclick="SubmitQuestionResponse()">
+        </div>
+        <!--
+        <div id='divStdFdbk'></div>
+        <div id='divTeamFdbk'></div> -->
+        <div class="submitFeedbackPopup">
+            <div id="fdk" optionID="1" opt_id="option1">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Open-Sans-Font-16px ">
+                        You chose to start your message with​, "I want to express...".
+                        <span style="color:#1d7527;">
+                            <strong> This was the best choice. </strong>
+                        </span>
+                        Using a tone that is firm and somewhat formal is a nice, balanced approach. You expressed disappointment without being too specific and taking the blame.
+                     </span>
+                </p>
+            </div>
+            <div id="fdk" optionID="2" opt_id="option2">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Open-Sans-Font-16px ">
+                        You chose to start your message with, "First of all, you and your team are awesome...". 
+                        <span style="color:#FF0000;">
+                            <strong> This was an incorrect choice. </strong>
+                        </span>
+                         First, the tone was too informal and overly friendly. When apologizing, you should adopt a friendly but somewhat formal tone. Second, you can express sympathy without asking for forgiveness. Why are you asking Kenisha for forgiveness? You're delivering a business decision. 
+                    </span>
+                </p>
+            </div>
+            <div id="fdk" optionID="3" opt_id="option3">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Default">
+                        <span class="Open-Sans-Font-16px ">
+                            You chose to start your message with, "I am deeply anguished...". 
+                            <span style="color:#77b401;">
+                                <strong> This was not the best choice. </strong>
+                            </span>
+                            It is overly dramatic. Although you are trying to be sympathetic, Kenisha will likely see your effort as sappy and overly sentimental.
+                        </span>
+                    </span>
+                </p>
+            </div>
+            <div id="fdk" optionid="4" opt_id="option4">
+                <p id="userselText"></p>
+                <p>
+                    <span class="Default">
+                        <span class="Open-Sans-Font-16px ">
+                            You chose to start your message with, "I am genuinely sorry...". 
+                            <span style="color:#77b401;">
+                                <strong> This was not the best choice. </strong>
+                            </span>
+                            On the plus side, you used a tone that is firm and slightly formal. However, you can express sympathy without accepting responsibility and/or guilt. Unless you were directly responsible for Radio-DRM's design flaws, assuming responsibility is inappropriate.
+                        </span>
+                    </span>
+                </p>
+            </div>
+      
+        </div>
+    </div>
+</div>
